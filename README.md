@@ -10,15 +10,15 @@
 
 1.POST /timeslots - retrieve all available timeslots for a formatted/structured address
 <br />
-      request format:  {"address": {"street":"streetName","city":"cityName","country":"countryName","zip":"zipCode"}}
+      **request format**:  {"address": {"street":"streetName","city":"cityName","country":"countryName","zip":"zipCode"}}
    <br />
 2.POST /resolve-address - resolves a single line non-structured address into a structured.
 <br />
- one line address format : "street, city, country, zip"
+ **one line address format** : "street, city, country, zip"
  <br />
 3.POST /deliveries - try to book a delivery (will be checked by mechanism of handling concurrent requests)
 <br />
-  delvery format : {user : {" name" :"Example", address:{"street":"streetName","city":"cityName","country":"countryName","zip":"zipCode"}},
+  **delvery request format** : {user : {" name" :"Example", address:{"street":"streetName","city":"cityName","country":"countryName","zip":"zipCode"}},
                             "timeslotid" ":timeslotid"
                                                 }
  <br />
