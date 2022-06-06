@@ -1,5 +1,5 @@
 # DeliveryAPI
-
+http://localhost:8000
 ## Models:
 1. Address - Contain street,city,country and zip.
 2. Delivery - contain Status,Timeslotid and User
